@@ -1,0 +1,121 @@
+<RegisterScreen>:
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    BoxLayout:
+        size_hint: (1, 1)
+        orientation: 'vertical'
+        padding: '20dp', '50dp', '20dp', '30dp'
+        spacing: '10dp'
+        Label:
+            text: 'VALSAFE'
+            font_size: '30dp'
+            size_hint: 1, None
+            height: '50dp'
+            color: root.font_color
+        ScrollView:
+            padding: '10dp'
+            canvas.after:
+                Color:
+                    rgba: root.font_color
+                Line:
+                    width: 2
+                    rectangle: self.x, self.y, self.width, self.height
+            BoxLayout:
+                size_hint: 1, None
+                height: self.minimum_height
+                orientation: 'vertical'
+                spacing: '5dp'
+                padding: '10dp'
+                Label:
+                    text: 'Personal Information'
+                    color: root.font_color
+                    size_hint: 1, None
+                    height: '50dp'
+                RegisterTextInput:
+                    id: full_name
+                    hint_text: 'Full Name'
+                RegisterTextInput:
+                    id: username
+                    hint_text: 'ValSafe Username'
+                RegisterTextInput:
+                    id: email
+                    hint_text: 'Email'
+                RegisterTextInput:
+                    id: password
+                    hint_text: 'Password'
+                    password: True
+                RegisterTextInput:
+                    id: confirm_password
+                    hint_text: 'Confirm Password'
+                    password: True
+                RegisterTextInput:
+                    id: sex
+                    hint_text: 'Sex'
+                RegisterTextInput:
+                    id: contact_no
+                    hint_text: 'Contact No'
+                BoxLayout:
+                    size_hint: 1, None
+                    height: self.minimum_height
+                    orientation: 'horizontal'
+                    spacing: '5dp'
+                    RegisterTextInput:
+                        id: birthdate
+                        hint_text: 'Birthdate'
+                    RegisterTextInput:
+                        id: age
+                        hint_text: 'Age'
+                RegisterTextInput:
+                    id: address
+                    hint_text: 'Address'
+                Label:
+                    text: 'Health Information'
+                    color: root.font_color
+                    size_hint: 1, None
+                    height: '50dp'
+                RegisterTextInput:
+                    id: health_concerns
+                    hint_text: 'Heal Concerns (If Any)'
+                RegisterTextInput:
+                    id: blood_type
+                    hint_text: 'Blood Type'
+                Label:
+                    text: 'Contact In Emergency'
+                    color: root.font_color
+                    size_hint: 1, None
+                    height: '50dp'
+                RegisterTextInput:
+                    id: emergency_name
+                    hint_text: 'Name'
+                RegisterTextInput:
+                    id: relationship
+                    hint_text: 'Relationship to User'
+                RegisterTextInput:
+                    id: emergency_address
+                    hint_text: 'Address'
+                RegisterTextInput:
+                    id: emergency_contact_no
+                    hint_text: 'Contact No'
+                Label:
+                    color: root.font_color
+                    text: 'By clicking sign up, you agree to the terms and conditions applied in using the application and its services.'
+                    font_size: '15dp'
+                    valign: 'center'
+                    halign: 'center'
+                    size_hint: 1, None
+                    text_size: self.width, None
+                    height: self.texture_size[1]
+        MyButton:
+            text:'Sign Up'
+            size_hint: 1, None
+            height: '40dp'
+            on_press: root.check()
+        MyButton:
+            text: 'Cancel'
+            size_hint: 1, None
+            height: '40dp'
+            on_press: app.sm.current = 'log in'

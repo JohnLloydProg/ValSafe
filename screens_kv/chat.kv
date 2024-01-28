@@ -1,0 +1,81 @@
+<ChatScreen>:
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BoxLayout:
+        size_hint: 1, 1
+        orientation: 'vertical'
+        BoxLayout:
+            size_hint: 1, None
+            height: '60dp'
+            padding: '10dp'
+            orientation: 'horizontal'
+            AnchorLayout:
+                anchor_x: 'left'
+                anchor_y: 'center'
+                Button:
+                    size_hint: None, None
+                    size: '40dp', '40dp'
+                    on_press: root.back()
+                    background_color: 0, 0, 0, 0
+                    Image:
+                        source: './images/arrow-left.png'
+                        center_x: self.parent.center_x
+                        center_y: self.parent.center_y
+                        size: self.parent.width, self.parent.height
+                        allow_stretch: True
+            AnchorLayout:
+                anchor_x: 'right'
+                anchor_y: 'center'
+                ChatTextInput:
+                    id: username
+                    text: 'Anonymous GC'
+                    size_hint: 1, None
+                    height: '40dp'
+                    multiline: False
+                    on_text_validate: root.change_gc()
+                    on_text: root.change_gc()
+        ScrollView:
+            canvas.before:
+                Color:
+                    rgba: 1, 250/255, 207/255, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            BoxLayout:
+                id: messenger
+                size_hint: 1, None
+                height: self.minimum_height
+                orientation: 'vertical'
+                spacing:'10dp'
+                padding: '10dp'
+        BoxLayout:
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'horizontal'
+            padding: '10dp'
+            spacing: '10dp'
+            ChatTextInput:
+                id: chat_text_input
+                hint_text: 'Chat'
+                size_hint: 0.5, None
+                height: '40dp'
+                multiline: False
+                on_text_validate: root.chat(self)
+            Button:
+                size_hint: None, None
+                size: '40dp', '40dp'
+                background_color: 0, 0, 0, 0
+                background_normal: ''
+                background_active: ''
+                on_press: root.chat(chat_text_input)
+                Image:
+                    source: './images/arrow-right (2).png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width, self.parent.height
+                    allow_stretch: True
+

@@ -1,0 +1,87 @@
+<LogInScreen>:
+    padding: '20dp'
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    GridLayout:
+        size_hint: 1, 1
+        rows: 4
+        AnchorLayout:
+            anchor_x: 'right'
+            anchor_y: 'top'
+            size_hint: 1, 0.2
+            padding: '10dp'
+            Button:
+                id: info
+                size_hint: None, None
+                size: '35dp', '35dp'
+                background_color: (0, 0, 0, 0)
+                on_press: root.info_pop()
+                Image:
+                    source: './images/info-circle.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.size
+                    allow_stretch: True
+        BoxLayout:
+            size_hint: 1, 0.40
+            spacing: '10dp'
+            padding: '10dp'
+            orientation: 'vertical'
+            Image:
+                source: './images/title.png'
+                size: self.parent.size
+                allow_stretch: True
+                keep_ratio: True
+                canvas.before:
+                    Color:
+                        rgba: 1, 250/255, 207/255, 1
+                    RoundedRectangle:
+                        size: self.size
+                        pos: self.pos
+                        radius: [20]
+            Label:
+                id: facts
+                text: '[facts]'
+                text_size: self.width, None
+                font_size: '15dp'
+                size_hint: 1, None
+                height: self.texture_size[1]
+                halign: 'center'
+                color: root.font_color
+        BoxLayout:
+            size_hint: 1, 0.30
+            orientation: 'vertical'
+            padding: '50dp'
+            spacing: '5dp'
+            LogInTextInput:
+                id: email
+                hint_text: 'Email'
+                size_hint: 1, None
+                height: '40dp'
+            LogInTextInput:
+                id: password
+                hint_text: 'Password'
+                size_hint: 1, None
+                height: '40dp'
+                password: True
+        BoxLayout:
+            size_hint: 1, 0.30
+            orientation: 'vertical'
+            padding: '50dp'
+            spacing: '5dp'
+            MyButton:
+                id: sign_in
+                text: 'Sign In'
+                size_hint: 1, None
+                height: '40dp'
+                on_press: root.sign_in()
+            MyButton:
+                id: sign_up
+                text: 'Sign Up'
+                size_hint: 1, None
+                height: '40dp'
+                on_press: app.sm.current = 'register'

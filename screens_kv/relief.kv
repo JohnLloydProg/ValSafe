@@ -1,0 +1,49 @@
+<ReliefScreen>:
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    GridLayout:
+        size_hint: 1, 1
+        rows: 3
+        padding: '10dp'
+        spacing: '10dp'
+        AnchorLayout:
+            size_hint: 1, None
+            height: '50dp'
+            anchor_x: 'left'
+            anchor_y: 'top'
+            padding: '5dp'
+            Button:
+                size_hint: None, None
+                size: '40dp', '40dp'
+                on_press: app.sm.current = 'navigation'
+                background_color: 0, 0, 0, 0
+                Image:
+                    source: './images/arrow-left.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width, self.parent.height
+                    allow_stretch: True
+        Label:
+            color: 0, 0, 0, 1
+            font_size: '30dp'
+            text: 'Relief Operations'
+            size_hint: 1, 0.2
+            canvas.before:
+                Color:
+                    rgba: 1, 250/255, 207/255, 1
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [25]
+        ScrollView:
+            BoxLayout:
+                id: barangays
+                orientation: 'vertical'
+                size_hint: 1, 0.7
+                padding: '10dp'
+                spacing: '10dp'
+

@@ -1,0 +1,65 @@
+$Disaster o Kalamidad
+Isang malubhang pagkagambala sa paggana ng isang komunidad o isang lipunan sa anumang antas dahil sa mga mapanganib na kaganapan na nakikipag-ugnayan sa mga kondisyon ng pagkakalantad, kahinaan at kapasidad, na humahantong sa isa o higit pa sa mga sumusunod: mga pagkalugi at epekto sa tao, materyal, pang-ekonomiya at kapaligiran.
+#
+
+$Emergency
+Ang emergency ay minsang ginagamit na kapalit ng terminong kalamidad. Halimbawa, sa konteksto ng mga biyolohikal at teknolohikal na panganib o mga emerhensiya sa kalusugan, na, gayunpaman, ay maaari ding nauugnay sa mga mapanganib na kaganapan na hindi nagreresulta sa malubhang pagkagambala sa paggana ng isang komunidad o lipunan.
+
+Ang pinsala sa sakuna ay nangyayari sa panahon at kaagad pagkatapos ng sakuna. Karaniwan itong sinusukat sa mga pisikal na unit (hal., square meters ng pabahay, kilometro ng mga kalsada, atbp.), at inilalarawan ang kabuuan o bahagyang pagkasira ng mga pisikal na asset.
+#
+
+$Disaster Impact o epekto ng kalamidad
+Ang epekto ng kalamidad ay ang kabuuang epekto, kabilang ang mga negatibong epekto (hal., pagkalugi sa ekonomiya) at mga positibong epekto (hal., mga pakinabang sa ekonomiya), ng isang mapanganib na kaganapan o isang kalamidad. Kasama sa termino ang mga epekto sa ekonomiya, tao at kapaligiran, at maaaring kabilang ang kamatayan, pinsala, sakit at iba pang negatibong epekto sa pisikal, mental at panlipunang kagalingan ng tao.
+
+Ang pamamahala sa panganib sa sakuna ay ang paggamit ng mga patakaran at estratehiya sa pagbabawas ng panganib sa sakuna upang maiwasan ang bagong panganib sa sakuna.
+#
+
+$Hazard
+Isang proseso, phenomenon o aktibidad ng tao na maaaring magdulot ng pagkawala ng buhay, pinsala o iba pang epekto sa kalusugan, pinsala sa ari-arian, pagkagambala sa lipunan at ekonomiya o pagkasira ng kapaligiran.
+
+Ang mga panganib ay maaaring iisa, sunud-sunod o pinagsama sa kanilang pinagmulan at mga epekto. Ang bawat panganib ay nailalarawan sa pamamagitan ng lokasyon nito, intensity o magnitude, dalas at posibilidad. Ang mga biyolohikal na panganib ay tinutukoy din sa pamamagitan ng kanilang pagkahawa o toxicity, o iba pang mga katangian ng pathogen tulad ng pagtugon sa dosis.
+#
+
+$Mitigation o Pagbabawas ng mga Epekto
+Ang pagbabawas o pagliit ng mga masamang epekto ng isang mapanganib na kaganapan.
+
+Ang masamang epekto ng mga panganib, lalo na ang mga natural na panganib, ay kadalasang hindi mapipigilan nang lubusan, ngunit ang kanilang sukat o kalubhaan ay maaaring mabawasan nang malaki sa pamamagitan ng iba't ibang estratehiya at aksyon. Kasama sa mga hakbang sa pagpapagaan ang mga teknik sa engineering at konstruksyon na lumalaban sa panganib pati na rin ang mga pinahusay na patakaran sa kapaligiran at panlipunan at kamalayan ng publiko.
+
+Dapat pansinin na, sa patakaran sa pagbabago ng klima, ang "pagbawas" ay tinukoy sa ibang paraan, at ang terminong ginamit para sa pagbabawas ng mga greenhouse gas emissions na pinagmumulan ng pagbabago ng klima.
+#
+
+$Preparedness o Paghahanda
+Ang kaalaman at kakayahan na binuo ng mga pamahalaan, pagtugon at mga organisasyon sa pagbawi, komunidad at indibidwal upang epektibong mahulaan, tumugon at makabangon mula sa mga epekto ng malamang, nalalapit o kasalukuyang mga sakuna.
+
+Ang pagkilos ng paghahanda ay isinasagawa sa loob ng konteksto ng pamamahala sa panganib sa sakuna at naglalayong bumuo ng mga kapasidad na kailangan upang mahusay na pamahalaan ang lahat ng uri ng mga emerhensiya at makamit ang maayos na mga pagbabago mula sa pagtugon sa patuloy na paggaling.
+#
+
+$Preparedness Plan o Plano sa Paghahanda
+Ang isang plano sa paghahanda ay nagtatatag ng mga kaayusan nang maaga upang paganahin ang napapanahon, epektibo at naaangkop na mga tugon sa mga partikular na potensyal na mapanganib na mga kaganapan o mga umuusbong na sitwasyon ng sakuna na maaaring magbanta sa lipunan o sa kapaligiran.
+#
+
+$Recovery o Pagbawi
+Ang pagpapanumbalik o pagpapabuti ng mga kabuhayan at kalusugan, gayundin ang pang-ekonomiya, pisikal, panlipunan, kultura at pangkalikasan na mga ari-arian, mga sistema at aktibidad, ng isang komunidad o lipunang naapektuhan ng sakuna, na umaayon sa mga prinsipyo ng napapanatiling pag-unlad at "bumuo muli nang mas mahusay", upang maiwasan o mabawasan ang panganib sa sakuna sa hinaharap.
+#
+
+$Prevention o Pag-iwas
+Mga aktibidad at hakbang upang maiwasan ang umiiral at bagong mga panganib sa sakuna.
+
+Bagama't hindi maaalis ang ilang partikular na panganib sa sakuna, ang pag-iwas ay naglalayong bawasan ang kahinaan at pagkakalantad sa mga ganitong konteksto kung saan, bilang resulta, ang panganib ng sakuna ay naaalis. Kasama sa mga halimbawa ang mga dam o pilapil na nag-aalis ng mga panganib sa baha, mga regulasyon sa paggamit ng lupa na hindi nagpapahintulot sa anumang paninirahan sa mga lugar na may mataas na peligro, mga disenyo ng seismic engineering na nagsisiguro sa kaligtasan at paggana ng isang kritikal na gusali sa anumang posibleng lindol at pagbabakuna laban sa mga sakit na maiiwasan sa bakuna.
+#
+
+$Response o Tugon
+Mga aksyong direktang ginawa bago, sa panahon o kaagad pagkatapos ng sakuna upang iligtas ang mga buhay, bawasan ang mga epekto sa kalusugan, tiyakin ang kaligtasan ng publiko at matugunan ang mga pangunahing pangangailangan sa pangkabuhayan ng mga taong apektado.
+
+Ang pagtugon sa sakuna ay higit na nakatuon sa mga kagyat at panandaliang pangangailangan at kung minsan ay tinatawag na disaster relief. Ang mabisa, mahusay at napapanahong pagtugon ay umaasa sa mga hakbang sa paghahanda na may kaalaman sa panganib sa sakuna, kabilang ang pagbuo ng mga kakayahan sa pagtugon ng mga indibidwal.
+#
+
+$Contingency Planning
+Isang proseso ng pamamahala na nagsusuri ng mga panganib sa sakuna at nagtatatag ng mga kaayusan nang maaga upang paganahin ang napapanahon, epektibo at naaangkop na mga tugon.
+
+Ang pagpaplano ng contingency ay nagreresulta sa organisado at magkakaugnay na mga kurso ng aksyon na may malinaw na natukoy na mga tungkulin at mapagkukunan ng institusyon, mga proseso ng impormasyon at mga kaayusan sa pagpapatakbo para sa mga partikular na aktor sa oras ng pangangailangan.
+#
+
+$Vulnerability o Kahinaan
+Ang mga kundisyong tinutukoy ng pisikal, panlipunan, pang-ekonomiya at kapaligiran na mga salik o proseso na nagpapataas ng pagkamaramdamin ng isang indibidwal, isang komunidad, mga ari-arian o mga sistema sa mga epekto ng mga panganib.
+#

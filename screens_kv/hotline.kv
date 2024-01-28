@@ -1,0 +1,132 @@
+<HotlineScreen>:
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BoxLayout:
+        size_hint: 1, 1
+        orientation: 'vertical'
+        AnchorLayout:
+            size_hint: 1, None
+            height: '50dp'
+            anchor_x: 'left'
+            anchor_y: 'top'
+            padding: '5dp'
+            Button:
+                size_hint: None, None
+                size: '40dp', '40dp'
+                on_press: app.sm.current = 'navigation'
+                background_color: 0, 0, 0, 0
+                Image:
+                    source: './images/arrow-left.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width, self.parent.height
+                    allow_stretch: True
+        GridLayout:
+            size_hint: 1, 0.60
+            rows: 2
+            padding: '10dp'
+            canvas.before:
+                Color:
+                    rgba: 1, 250/255, 207/255, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            Label:
+                id: caller_name
+                color: root.font_color
+                text: 'EMERGENCY'
+                font_size: '20dp'
+                size_hint: 1, None
+                height: '50dp'
+            ScrollView:
+                BoxLayout:
+                    id: caller_numbers
+                    orientation: 'vertical'
+                    size_hint: 1, None
+                    height: self.minimum_height
+                    spacing: '5dp'
+        AnchorLayout:
+            size_hint: 1, 0.45
+            anchor_x: 'center'
+            anchor_y: 'center'
+            padding: '10dp'
+            GridLayout:
+                size_hint: None, 1
+                width: '160dp'
+                rows: 4
+                cols: 3
+                spacing: '5dp'
+                HotlineButton:
+                    text: '1'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '2'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '3'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '4'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '5'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '6'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '7'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '8'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    text: '9'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.back_clicked()
+                    Image:
+                        source: './images/arrow-circle-left.png'
+                        center_x: self.parent.center_x
+                        center_y: self.parent.center_y
+                        size: self.parent.width - 25, self.parent.height - 25
+                        allow_stretch: True
+                HotlineButton:
+                    text: '0'
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.digit_clicked(self)
+                HotlineButton:
+                    size_hint: None, None
+                    size: '50dp', '50dp'
+                    on_press: root.calling()
+                    Image:
+                        source: './images/call.png'
+                        center_x: self.parent.center_x
+                        center_y: self.parent.center_y
+                        size: self.parent.width - 25, self.parent.height - 25
+                        allow_stretch: True

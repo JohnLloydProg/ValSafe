@@ -1,0 +1,160 @@
+#:import Factory kivy.factory.Factory
+
+<NavigationScreen>:
+    MapView:
+        id: map
+        size: root.width, root.height
+        zoom: 15
+        double_tap_zoom: True
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'top'
+        padding: '10dp'
+        BoxLayout:
+            size_hint: 1, None
+            height: self.minimum_height
+            orientation: 'horizontal'
+            padding: '5dp'
+            spacing: '10dp'
+            canvas.before:
+                Color:
+                    rgba: root.background_color
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [20]
+            Spinner:
+                id: evacuation_sites
+                text: 'Evacuation Sites'
+                values: ['3s', 'malinta elem']
+                size_hint: 1, None
+                height: '60dp'
+                color: root.font_color
+                background_color: 0, 0, 0, 0
+                option_cls: Factory.sp
+                on_text: root.location_selected(self)
+                canvas.before:
+                    Color:
+                        rgba: 1, 250/255, 207/255, 1
+                    RoundedRectangle:
+                        size: self.size
+                        pos: self.pos
+                        radius: [20]
+            Button:
+                size_hint: None, None
+                size: '60dp', '60dp'
+                background_color: 0, 0, 0, 0
+                background_active: ''
+                background_normal: ''
+                on_press: app.sm.current = 'chat'
+                canvas.before:
+                    Color:
+                        rgba: 1, 250/255, 207/255, 1
+                    Ellipse:
+                        size: self.size
+                        pos: self.pos
+                Image:
+                    source: './images/messages.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width - 35, self.parent.height - 35
+                    allow_stretch: True
+    AnchorLayout:
+        size_hint: 1, 1
+        anchor_x: 'left'
+        anchor_y: 'bottom'
+        padding: '10dp'
+        Button:
+            size_hint: None, None
+            size: '65dp', '65dp'
+            background_color: 0, 0, 0, 0
+            background_active: ''
+            background_normal: ''
+            on_press: root.track()
+            canvas.before:
+                Color:
+                    rgba: root.background_color
+                Ellipse:
+                    size: self.size
+                    pos: self.pos
+                Color:
+                    rgba: 1, 250/255, 207/255, 1
+                Ellipse:
+                    size: self.size[0] - 8, self.size[1] - 8
+                    pos: self.pos[0] + 4, self.pos[1] + 4
+            Image:
+                source: './images/logo.png'
+                center_x: self.parent.center_x
+                center_y: self.parent.center_y
+                size: self.parent.width - 15, self.parent.height - 15
+                allow_stretch: True
+    AnchorLayout:
+        size_hint: 1, 1
+        anchor_x: 'right'
+        anchor_y: 'bottom'
+        padding: '10dp'
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: None, None
+            width: '70dp'
+            height: self.minimum_height
+            padding: '10dp'
+            spacing: '10dp'
+            canvas.before:
+                Color:
+                    rgba: root.background_color
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [20]
+            NavigationButton:
+                size_hint: None, None
+                size: '50dp', '50dp'
+                on_press: app.sm.current='account'
+                Image:
+                    source: './images/user.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width - 30, self.parent.height - 30
+                    allow_stretch: True
+            NavigationButton:
+                size_hint: None, None
+                size: '50dp', '50dp'
+                on_press: app.sm.current='hotline'
+                Image:
+                    source: './images/call-calling.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width - 30, self.parent.height - 30
+                    allow_stretch: True
+            NavigationButton:
+                size_hint: None, None
+                size: '50dp', '50dp'
+                on_press: app.sm.current='lobby'
+                Image:
+                    source: './images/information.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width - 30, self.parent.height - 30
+                    allow_stretch: True
+            NavigationButton:
+                size_hint: None, None
+                size: '50dp', '50dp'
+                on_press: app.sm.current='relief'
+                Image:
+                    source: './images/people.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                    size: self.parent.width - 30, self.parent.height - 30
+                    allow_stretch: True
+
+            
+<sp@SpinnerOption>:
+    background_color: 0, 0, 0, 0
+    color: 50/255, 50/255, 50/255, 1
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        Rectangle:
+            size: self.size
+            pos: self.pos

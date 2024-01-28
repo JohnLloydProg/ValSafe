@@ -1,0 +1,4 @@
+Ang foreshocks ay mga lindol na nauuna sa mas malalaking lindol sa parehong lokasyon. Ang isang lindol ay hindi matukoy bilang isang foreshock hanggang matapos ang isang mas malaking lindol sa parehong lugar ay mangyari.
+
+Ang mga aftershock ay mas maliliit na lindol na nangyayari sa parehong pangkalahatang lugar sa mga araw hanggang taon pagkatapos ng isang mas malaking kaganapan o "mainshock." Nangyayari ang mga ito sa loob ng 1-2 fault length ang layo at sa tagal ng panahon bago magpatuloy ang background seismicity level. Bilang pangkalahatang tuntunin, ang mga aftershock ay kumakatawan sa mga maliliit na muling pagsasaayos sa bahagi ng isang fault na nadulas sa oras ng mainshock. Bumababa ang dalas ng mga aftershock na ito sa paglipas ng panahon. Ayon sa kasaysayan, ang malalalim na lindol (>30 km) ay mas malamang na masundan ng mga aftershock kaysa sa mababaw na lindol.
+#

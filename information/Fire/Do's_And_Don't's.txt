@@ -1,0 +1,53 @@
+$DO
+-Alamin ang plano sa paglikas ng iyong gusali.
+
+-Lumikas nang mahinahon at mabilis sa tuwing tumunog ang alarma sa sunog o carbon monoxide alarma.
+
+-Panatilihing madaling gamitin ang mahahalagang bagay gaya ng mga gamot at kagamitang medikal para sa mabilis na pag-access sakaling may lumikas na gusali.
+
+-Alamin ang dalawang daan palabas ng anumang gusali.
+
+-Bago buksan ang pinto, damhin ito gamit ang likod ng iyong kamay. Kung ang pinto ay mainit, huwag buksan ito.
+
+-Kung makatagpo ka ng usok sa panahon ng iyong paglikas, manatiling mababa sa sahig.
+
+-Alamin ang panlabas na rally point para sa iyong gusali.
+
+-Sa kaso ng usok o emerhensiyang sunog, buhayin ang pinakamalapit na istasyon ng paghila ng alarma sa sunog, alertuhan ang mga nasa paligid mo, at mula sa isang ligtas na lokasyon tumawag sa departamento ng bumbero sa pamamagitan ng pag-dial sa 911, pagkatapos ay tawagan ang Public Safety sa Charles River Campus sa pamamagitan ng pag-dial sa 617-353- 2121 at ang Control Center sa Medical Campus sa pamamagitan ng pag-dial sa 617-414-6666.
+
+-Tiyakin na ang mga alarma ng usok at carbon monoxide ay may mga baterya. Baguhin ang mga baterya (sa hindi pagmamay-ari ng BU) kapag itinakda mo ang iyong mga orasan pabalik o pasulong.
+
+-Regular na suriin ang usok at carbon monoxide na mga alarma.
+
+-Siguraduhin na ang mga pasilyo at mga pintuan ng hagdanan ay nakasara nang mahigpit.
+
+-Alamin ang mga lokasyon ng mga fire extinguisher, fire alarm pull stations, at labasan.
+
+-Matutong gumamit ng fire extinguisher
+#
+
+$DON'T
+-Iwanan ang mga kandila, insenso, barbecue grills o iba pang bukas na apoy na walang nag-aalaga. (Tandaan na ang mga bagay na ito ay ipinagbabawal sa pabahay ng Unibersidad.)
+
+-Gumamit ng mga halogen lamp malapit sa mga kurtina o iba pang nasusunog. (Ang mga halogen lamp ay ipinagbabawal sa pabahay ng Unibersidad).
+
+-Isabit ang mga tapiserya sa mga dingding o kisame.
+
+-Iwanan ang mga kagamitan sa pagluluto nang walang nagbabantay.
+
+-Gumamit ng mga barbecue grill sa o sa anumang gusali o fire escape.
+
+-Usok sa kama. (Ang paninigarilyo ay ipinagbabawal sa pabahay ng Unibersidad).
+
+-Pakialaman ang mga smoke detector, carbon monoxide alarm, fire alarm o sprinkler system.
+
+-Huwag pansinin ang anumang alarma sa gusali.
+
+-Isabit ang anumang bagay mula sa mga ulo ng sprinkler o mga tubo.
+
+-Maaaring hadlangan ng mga dayuhang bagay ang paggana ng system.
+
+-Bumukas ang mga pinto ng sunog o usok.
+
+-Gumamit ng elevator sa panahon ng paglikas.
+#

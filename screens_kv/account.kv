@@ -1,0 +1,128 @@
+<AccountScreen>:
+    canvas.before:
+        Color:
+            rgb: self.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    AnchorLayout:
+        anchor_x: 'center'
+        GridLayout:
+            size_hint: 0.8, 1
+            rows: 3
+            padding: '20dp'
+            spacing: '15dp'
+            AnchorLayout:
+                size_hint: 1, 0.25
+                anchor_x: 'center'
+                anchor_y: 'center'
+                Image:
+                    source: './images/profile-circle.png'
+                    size_hint: None, None
+                    size: '150dp', '150dp'
+                    allow_stretch: True
+            ScrollView:
+                size_hint: 1, 0.40
+                padding: '10dp'
+                canvas.after:
+                    Color:
+                        rgba: root.font_color
+                    Line:
+                        width: 2
+                        rectangle: self.x, self.y, self.width, self.height
+                BoxLayout:
+                    size_hint: 1, None
+                    height: self.minimum_height
+                    orientation: 'vertical'
+                    spacing: '5dp'
+                    padding: '10dp'
+                    Label:
+                        text: 'Personal Information'
+                        color: root.font_color
+                        size_hint: 1, None
+                        height: '50dp'
+                    RegisterTextInput:
+                        id: full_name
+                        hint_text: 'Full Name'
+                    RegisterTextInput:
+                        id: username
+                        hint_text: 'ValSafe Username'
+                    RegisterTextInput:
+                        id: email
+                        hint_text: 'Email'
+                    RegisterTextInput:
+                        id: password
+                        hint_text: 'Password'
+                        password: True
+                    RegisterTextInput:
+                        id: confirm_password
+                        hint_text: 'Confirm Password'
+                        password: True
+                    RegisterTextInput:
+                        id: sex
+                        hint_text: 'Sex'
+                    RegisterTextInput:
+                        id: contact_no
+                        hint_text: 'Contact No'
+                    BoxLayout:
+                        size_hint: 1, None
+                        height: self.minimum_height
+                        orientation: 'horizontal'
+                        spacing: '5dp'
+                        RegisterTextInput:
+                            id: birthdate
+                            hint_text: 'Birthdate'
+                        RegisterTextInput:
+                            id: age
+                            hint_text: 'Age'
+                    RegisterTextInput:
+                        id: address
+                        hint_text: 'Address'
+                    Label:
+                        text: 'Health Information'
+                        color: root.font_color
+                        size_hint: 1, None
+                        height: '50dp'
+                    RegisterTextInput:
+                        id: health_concerns
+                        hint_text: 'Heal Concerns (If Any)'
+                    RegisterTextInput:
+                        id: blood_type
+                        hint_text: 'Blood Type'
+                    Label:
+                        text: 'Contact In Emergency'
+                        color: root.font_color
+                        size_hint: 1, None
+                        height: '50dp'
+                    RegisterTextInput:
+                        id: emergency_name
+                        hint_text: 'Name'
+                    RegisterTextInput:
+                        id: relationship
+                        hint_text: 'Relationship to User'
+                    RegisterTextInput:
+                        id: emergency_address
+                        hint_text: 'Address'
+                    RegisterTextInput:
+                        id: emergency_contact_no
+                        hint_text: 'Contact No'
+            BoxLayout:
+                size_hint: 1, 0.35
+                orientation: 'vertical'
+                spacing: '10dp'
+                AccountButton:
+                    text: 'Save'
+                    size_hint: 1, None
+                    height: '50dp'
+                    on_press: root.save()
+                AccountButton:
+                    text: 'Back'
+                    size_hint: 1, None
+                    height: '50dp'
+                    on_press: app.sm.current = 'navigation'
+                AccountButton:
+                    text: 'Sign Out'
+                    size_hint: 1, None
+                    height: '50dp'
+                    on_press: app.sm.current = 'log in'
+                

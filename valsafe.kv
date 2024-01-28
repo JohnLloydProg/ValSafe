@@ -1,0 +1,175 @@
+<MyButton@Button>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 0, 0, 0, 0
+    background_normal: ''
+    background_active: ''
+    canvas.before:
+        Color:
+            rgba: 1, 172/255, 62/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+
+<NavigationButton@Button>:
+    background_color: 0, 0, 0, 0
+    background_normal: ''
+    background_active: ''
+    canvas.before:
+        Color:
+            rgba: 1, 172/255, 62/255, 1
+        Ellipse:
+            size: self.size
+            pos: self.pos
+
+<LobbyButton@Button>:
+    color: 50/255, 50/255, 50/255, 1
+    font_size: '20dp'
+    background_color: 0, 0, 0, 0
+    background_normal: ''
+    background_active: ''
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [30]
+
+<HotlineButton@Button>:
+    color: 50/255, 50/255, 50/255, 1
+    font_size: '25dp'
+    background_color: 0, 0, 0, 0
+    background_normal: ''
+    background_active: ''
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        Ellipse:
+            pos: self.pos
+            size: self.size
+
+<NumberButton>:
+    canvas.before:
+        Color:
+            rgba: 1, 87/255, 87/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+
+<CategoriesButton>:
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+
+<AccountButton@Button>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 0, 0, 0, 0
+    background_normal: ''
+    background_active: ''
+    canvas.before:
+        Color:
+            rgba: 1, 172/255, 62/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+
+<AccountTextInput@TextInput>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 1, 250/255, 207/255, 1
+    background_normal: ''
+    background_active: ''
+
+<ChatTextInput@TextInput>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 1, 250/255, 207/255, 1
+    background_normal: ''
+    background_active: ''
+
+<RegisterTextInput@TextInput>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 1, 250/255, 207/255, 1
+    background_normal: ''
+    background_active: ''
+    size_hint: 1, None
+    height: '40dp'
+    multiline: False
+
+<LogInTextInput@TextInput>:
+    color: 50/255, 50/255, 50/255, 1
+    background_color: 1, 250/255, 207/255, 1
+    background_normal: ''
+    background_active: ''
+    multiline: False
+
+<Message>:
+    size_hint: 1, None
+    height: self.minimum_height
+    orientation: 'vertical'
+    padding: '10dp'
+    canvas.before:
+        Color:
+            rgba: 1, 87/255, 87/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+    Label:
+        id: name
+        bold: True
+        size_hint: 1, None
+        height: self.texture_size[1]
+        color: 0, 0, 0, 1
+    Label:
+        id: message
+        size_hint: 1, None
+        halign: 'center'
+        valign: 'center'
+        text_size: self.width, None
+        height: self.texture_size[1]
+        color: 0, 0, 0, 1
+
+<Information>:
+    size_hint: 1, None
+    height: self.minimum_height
+    orientation: 'vertical'
+    padding: '10dp'
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
+    Label:
+        id: topic
+        bold: True
+        size_hint: 1, None
+        text_size: self.width, None
+        height: self.texture_size[1]
+        color: 0, 0, 0, 1
+    Label:
+        id: description
+        size_hint: 1, None
+        text_size: self.width, None
+        height: self.texture_size[1]
+        color: 0, 0, 0, 1
+
+<Barangay>:
+    size_hint: 1, None
+    height: '40dp'
+    font_size: '15dp'
+    color: 0, 0, 0, 1
+    canvas.before:
+        Color:
+            rgba: 1, 250/255, 207/255, 1
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [20]
